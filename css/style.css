@@ -1,11 +1,214 @@
-/* Default height for small devices */
-#intro-example {
-    height: 400px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/* Height for devices larger than 992px */
-@media (min-width: 992px) {
-    #intro-example {
-        height: 600px;
-    }
+/* Start header home section  */
+
+.header-home {
+    background-image: linear-gradient(hsl(168.92deg 26.53% 48.04% / 55%), hsl(143.27deg 32.03% 30% / 86%)), url(..//img/glass.jpg);
+    height: 700px;
+    background-size: cover;
 }
+
+/* Start navbar home section  */
+
+.navbar-home img {
+    margin-left: 160px !important;
+    margin-right: 58px !important;
+    width: 172px;
+
+}
+
+
+.navbar-home a {
+    font-size: 22px;
+    font-family: auto;
+    font-weight: 600;
+    margin-left: 37px !important;
+}
+
+.navbar-home button {
+    margin-left: 177px;
+    background-color: hsl(8.24deg 78.44% 67.25%);
+    text-transform: none;
+    font-size: 17px;
+    font-family: auto;
+    padding: 7px 13px;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+
+/* End navbar home section  */
+
+
+/* Start learn home section  */
+.learn-home p {
+    font-size: 29px;
+    font-family: cursive;
+    font-weight: 600;
+    margin-top: 57px;
+    margin-bottom: 9px;
+}
+
+.search-home {
+    width: 49% !important;
+}
+
+.search-home input {
+    padding: 32px;
+    border-radius: 20px !important;
+    height: 53px !important;
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.search-home button {
+    border-radius: 20px;
+    background-color: hsl(179.14deg 83.33% 16.47%);
+    color: white;
+    border-radius: 20px !important;
+    bottom: 6px;
+    left: 517px;
+    font-size: 15px;
+    font-family: auto;
+    text-transform: none;
+    word-spacing: -1px;
+    padding: 16px 8px;
+    padding-top: 16px;
+}
+
+.search-content {
+    font-size: 17px;
+    bottom: 18px;
+    left: 9px;
+}
+
+/* End learn home section  */
+
+/* Start icon  */
+.icon-home {
+    color: hsl(155.56deg 31.03% 34.12%);
+}
+
+@media only screen and (max-width:767px) {
+    .header-home {
+        height: fit-content;
+        width: fit-content;
+    }
+
+        .search-home button{
+            left: 50px;
+            right: 50px;
+            top:60px;
+        }
+
+}
+
+
+/* End header home section  */
+
+
+/* Start main home section  */
+.read-home {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+
+.read-home p {
+    font-size: 17px;
+    font-family: cursive;
+    color: hsl(188.57deg 7.22% 61.96%);
+    margin-top: 35px;
+}
+
+.read-home p::first-line {
+    font-size: 33px;
+    color: hsl(227.37deg 10.5% 35.49%);
+}
+
+/* End main home section  */
+
+
+/* Start system home section  */
+.system-home {
+    background-color: hsl(208deg 49.67% 70.39%);
+    height: 580px;
+}
+
+.system-feature {
+    font-size: 25px !important;
+    font-family: cursive !important;
+    color: black !important;
+    text-align: left !important;
+    margin-top: 53px;
+    margin-bottom: -6px;
+}
+
+.system-content {
+    border-radius: 15px;
+    width: 95%;
+    height: 95% !important;
+}
+
+.system-home p {
+    font-size: 16px;
+    font-family: auto;
+    color: hsl(255.79deg 14.96% 24.9%);
+    text-align: center;
+}
+
+
+@media only screen and (max-width:767px) {
+    .system-home {
+        height: fit-content;
+        width: fit-content;
+        padding-bottom: 50px;
+    }
+
+}
+/* End system home section  */
+
+.article-content{
+    font-family: cursive;
+}
+
+.article-home{
+    font-size: 17px;
+    font-family: cursive;
+    margin-bottom: 20px !important;
+}
+
+
+/* Start footer home section  */
+.footer-home {
+    background-color: hsl(167.78deg 78.26% 27.06%);
+    background-size: cover;
+    height: 450px;
+    font-family: auto;
+    border-radius: 207px 207px 0px 0px;
+    margin-top: 42px;
+    padding-top: 54px;
+    padding-left: 87px;
+}
+
+
+.footer-home h2 {
+    font-size: 33px;
+    margin-top: 22px;
+    margin-left: -88px;
+    font-weight: 600;
+}
+
+.footer-home p {
+    font-size: 20px;
+    margin-left: -88px;
+}
+
+.footer-home h3 {
+    color: hsl(9.27deg 84.83% 71.57%);
+}
+
+/* End footer home section  */

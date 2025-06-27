@@ -25,30 +25,51 @@
     
     <!-- style css  -->
     <link rel="stylesheet" href="css/style.css">
-
 </head>
-<body>
 
-    <!-- Start Header home section -->
-    
-    <header class="header-home d-flex justify-content-center align-items-center mt-5">
-        <div class="conteiner">
+
+<body>
+    <!-- Start main home section -->
+    <main>
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 col-lg-6 col-sm-12">
-                    <img src="img/3123i2lmPiL._AC_SY780_.jpg">
+                <div class="col-md-6 mt-5">
+                    <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75">
                 </div>
-                
-                <div class="col-md-6 d-flex flex-column justify-content-center col-lg-6 col-sm-12">
-                    <h2>Welcome</h2>
-                    <p>We’re glad you’re here! Sign up to start</p>
-                    <a href="register.html" class="btn-primary btn-block text-center p-2 text-decoration-none">Get stared</a>
+
+                <div class="col-md-6 mt-5">
+                    <h3>Create Account</h3>
+                    <p class="text-muted">Go ahead and sign up, let everyone<br>knowhow awesome you are!</p>
+                    <form action="Successfully.html" method="post" onsubmit=" return validate();">
+                        <h1 id="errorMessage"></h1>
+                        <input type="text" name="user" placeholder="Username" id="username"
+                            class="form-control mb-4 p-4">
+                        <input type="Email" name="email" placeholder="Email" id="email" class="form-control mb-4 p-4">
+                        <input type="password" name="pass" placeholder="Password" id="password"
+                            class="form-control mb-4 p-4">
+                        <input type="password" name="confirm" placeholder="Confirm Password" id="confirmPassword" class="form-control mb-4 p-4">
+                        <input type="submit" value="Create New Account" class="btn-block btn-primary p-1">
+
+
+                    </form>
                 </div>
             </div>
         </div>
-    </header>
+    </main>
 
-    <!-- End Header home section -->
-    
+
+    <!-- End main home section -->
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- wow js  -->
 <script src="js/wow.min.js"></script>
@@ -69,4 +90,5 @@
 <script src="js/main.js"></script>
 
 </body>
+
 </html>
